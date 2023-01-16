@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #FFF;
+}
+.ddd {
+    margin: 30px;
+}
+.overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+ top: 0;
+ right: 0;
+ bottom: 0;
+ left: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.modal {
+    
+    background-color:#FFF;
+    width: 500px;
+    padding: 30px;
+    box-shadow: 0 0 10px #000;
+     position: relative;
+     font-size: 1.5EM;
+     border-radius: 15px;
+}
+
+span {
+    display: block;
+    position: absolute;
+    font-size: 2em;
+    right: 25px;
+    top:5px;
+    color: #000;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+span:hover {
+    color: rgb(229, 75, 75);
+    font-size: 3em;
+    right: -45px;
+    top: -45px;
+    
+}
